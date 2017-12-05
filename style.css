@@ -256,4 +256,88 @@ body {
   .section-team .team-header img {
     padding-bottom: 125px; }
 
+.section-company {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  .section-company .intel {
+    margin-top: -5px; }
+
+.section-pricing {
+  text-align: center;
+  padding-bottom: 200px; }
+  .section-pricing .pricing-header h3 {
+    color: #29323c;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: -0.65px;
+    padding-top: 90px; }
+  .section-pricing .pricing-header p {
+    opacity: 0.8;
+    color: #29323c;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px; }
+  .section-pricing .pricing-header img {
+    padding-bottom: 100px; }
+  .section-pricing .pricing-content .top-pricing {
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+    .section-pricing .pricing-content .top-pricing h4 {
+      color: #485563;
+      font-family: 'Montserrat';
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 36px;
+      padding-bottom: 15px; }
+      .section-pricing .pricing-content .top-pricing h4 span {
+        font-weight: 900; }
+    .section-pricing .pricing-content .top-pricing p {
+      color: #485563;
+      font-family: 'Montserrat';
+      font-size: 45px;
+      font-weight: 400;
+      line-height: 9px;
+      padding-bottom: 15px; }
+      .section-pricing .pricing-content .top-pricing p span {
+        font-weight: 700; }
+    .section-pricing .pricing-content .top-pricing h5 {
+      opacity: 0.8;
+      color: #29323c;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 9px;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 40px; }
+  .section-pricing .pricing-content .bottom-pricing {
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+    .section-pricing .pricing-content .bottom-pricing button {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      background-color: #485563;
+      color: #e8e8e8;
+      font-family: 'Montserrat';
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 36px;
+      text-transform: uppercase;
+      letter-spacing: 0.33px;
+      border: 1px solid #485563;
+      padding: 7px 50px;
+      border-radius: 50px; }
+    .section-pricing .pricing-content .bottom-pricing p {
+      padding-top: 60px;
+      color: #29323c;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 40px; }
+
 /*# sourceMappingURL=style.css.map */
