@@ -183,4 +183,77 @@ body {
     font-weight: 600;
     line-height: 20px; }
 
+.section-team {
+  text-align: center;
+  background-image: url("img/newteam-background.png");
+  position: relative;
+  padding-bottom: 1000px; }
+  .section-team .layer {
+    background-color: rgba(41, 50, 60, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 300px; }
+  .section-team .team-photo img {
+    width: 100%; }
+  .section-team .team-content .team-button button {
+    color: #e8e8e8;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    border: 1px solid #f2f2f2;
+    border-radius: 40px;
+    display: inline;
+    padding: 5px 35px;
+    background: none;
+    margin-top: 100px; }
+  .section-team .team-content .team-info {
+    background-color: #f2f2f2;
+    opacity: 0.75; }
+    .section-team .team-content .team-info p {
+      color: #29323c;
+      font-family: 'Montserrat';
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 20px;
+      padding-top: 20px;
+      margin-bottom: 0; }
+    .section-team .team-content .team-info h5 {
+      opacity: 0.8;
+      color: #29323c;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+      margin-top: 5px;
+      margin-bottom: 25px; }
+    .section-team .team-content .team-info i {
+      padding-bottom: 20px;
+      font-size: 20px;
+      padding-right: 8px; }
+  .section-team .team-header h3 {
+    color: #f2f2f2;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: -0.65px;
+    padding-top: 60px; }
+  .section-team .team-header p {
+    opacity: 0.8;
+    color: #f2f2f2;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px; }
+  .section-team .team-header img {
+    padding-bottom: 125px; }
+
 /*# sourceMappingURL=style.css.map */
