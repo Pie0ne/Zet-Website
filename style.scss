@@ -430,3 +430,26 @@ body {
 		}
 	}
 }
+.section-contact {
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+		.col-lg-6 {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+	.form {
+		background-image: url('img/newimg.png');
+		padding-bottom: 462px;
+		opacity: 0.7;
+		form {
+			
+		}
+	}	
+	.map {
+		img {
+			width: 100%;
+		}	
+	}
+}

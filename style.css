@@ -340,4 +340,17 @@ body {
       font-weight: 600;
       line-height: 40px; }
 
+.section-contact .row {
+  margin-right: 0;
+  margin-left: 0; }
+  .section-contact .row .col-lg-6 {
+    padding-right: 0;
+    padding-left: 0; }
+.section-contact .form {
+  background-image: url("img/newimg.png");
+  padding-bottom: 462px;
+  opacity: 0.7; }
+.section-contact .map img {
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
