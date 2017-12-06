@@ -225,7 +225,9 @@ body {
       font-weight: 900;
       line-height: 20px;
       padding-top: 20px;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding-right: 5px;
+      padding-left: 5px; }
     .section-team .team-content .team-info h5 {
       opacity: 0.8;
       color: #29323c;
@@ -417,13 +419,15 @@ body {
 
   .section-pricing .pricing-content {
     width: 70%;
-    margin: 0 auto; } }
-.section-footer .left-side {
-  text-align: center; }
-.section-footer .right-side {
-  text-align: center; }
+    margin: 0 auto; }
 
-@media (min-width: 769px) and (max-width: 991px) {
+  .section-footer .left-side {
+    text-align: center; }
+    .section-footer .left-side img {
+      width: 90%; }
+  .section-footer .right-side {
+    text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) {
   .logo {
     text-align: center; }
 
@@ -447,5 +451,8 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   .logo {
     text-align: center; } }
+@media (max-width: 580px) {
+  .section-team .team-content .team-button button {
+    margin-top: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
