@@ -25,9 +25,10 @@ body {
 		.menu {
 			ul {
 				padding-top: 42px;
+				text-align: center;
 				li {
 					display: inline-block;
-					padding-right: 5px;
+					padding-right: 10px;
 					a {
 						color: #fff;
 						font-size: 16px;
@@ -124,6 +125,9 @@ body {
 			font-size: 14px;
 			font-weight: 600;
 			line-height: 22px;
+			padding-top: 15px;
+		}
+		img {
 			padding-top: 15px;
 		}
 	}
@@ -331,6 +335,9 @@ body {
 	background-color: #f5f5f5;
 	padding-bottom: 50px;
 	padding-top: 50px;
+	img {
+		padding-top: 15px;
+	}
 	.intel {
 		margin-top: -5px;
 	}
@@ -360,12 +367,13 @@ body {
 			line-height: 30px;
 		}
 		img {
-			padding-bottom: 100px;
+			padding-bottom: 60px;
 		}
 	}
 	.pricing-content {
 		.top-pricing {
 			border: 1px solid rgba(0,0,0,0.3);
+			margin-top: 50px;
 			h4 {
 				color: #485563;
 				font-family: 'Montserrat';
@@ -460,5 +468,136 @@ body {
 			letter-spacing: -0.35px;
 			padding-right: 10px;
 		}
+	}
+}
+
+@media (max-width: 767px) {
+	.section-header {
+		padding-bottom: 1000px;
+		.top-header {
+			.logo {
+				text-align: center;
+			}
+			.menu {
+				ul {
+					padding-left: 0;
+					li {
+						display: block;
+						padding-top: 30px;
+						a {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+			.main-header {
+				h3 {
+					padding-top: 80px;
+					}
+				img {
+					padding-top: 140px;
+				}
+			}
+		}
+	}
+	.section-team {
+		padding-bottom: 1050px;
+		.team-header {
+			img {
+				padding-bottom: 40px;
+			}
+			h3 {
+				padding-top: 10px;
+			}
+		}
+		.team-content {
+			.team-button {
+				button {
+					margin-top: 30px;
+				}
+			}
+			.team-photo {
+				img {
+					width: 75%;
+					padding-top: 20px;
+				}
+			}
+			.team-info {
+				width: 75%;
+				margin: 0 auto;
+				i {
+					font-size: 14px;
+					padding-right: 3px;
+					
+				}
+				p {
+					font-size: 12px;
+				}
+				h5 {
+					font-size: 10px;
+				}
+			}
+		}
+		
+	}
+	.section-company {
+		padding-top: 20px;
+		img {
+			padding-top: 35px;
+		}
+	}
+	.section-pricing {
+			.pricing-content {
+				width: 70%;
+				margin: 0 auto;	
+			}
+		}
+	}
+	.section-footer {
+		.left-side {
+			text-align: center;
+		}
+		.right-side {
+			text-align: center;
+		}
+	}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	.logo {
+		text-align: center;
+	}
+	.section-team {
+		padding-bottom: 1050px;
+		.team-header {
+			img {
+				padding-bottom: 60px;
+			}
+		}
+		.team-content {
+			padding-bottom: 1200px;
+			.team-photo {
+				img {
+					width: 50%;
+					padding-top: 20px;
+				}
+			}
+			.team-info {
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+	}
+	.section-pricing {
+		.pricing-content {
+			width: 70%;
+			text-align: center;
+			margin-left: 120px;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.logo {
+		text-align: center;
 	}
 }

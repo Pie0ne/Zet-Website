@@ -17,10 +17,11 @@ body {
   .section-header .top-header .logo img {
     padding-top: 32px; }
   .section-header .top-header .menu ul {
-    padding-top: 42px; }
+    padding-top: 42px;
+    text-align: center; }
     .section-header .top-header .menu ul li {
       display: inline-block;
-      padding-right: 5px; }
+      padding-right: 10px; }
       .section-header .top-header .menu ul li a {
         color: #fff;
         font-size: 16px;
@@ -99,6 +100,8 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
+    padding-top: 15px; }
+  .section-services .services-content img {
     padding-top: 15px; }
 
 .section-works {
@@ -261,6 +264,8 @@ body {
   background-color: #f5f5f5;
   padding-bottom: 50px;
   padding-top: 50px; }
+  .section-company img {
+    padding-top: 15px; }
   .section-company .intel {
     margin-top: -5px; }
 
@@ -284,9 +289,10 @@ body {
     font-weight: 600;
     line-height: 30px; }
   .section-pricing .pricing-header img {
-    padding-bottom: 100px; }
+    padding-bottom: 60px; }
   .section-pricing .pricing-content .top-pricing {
-    border: 1px solid rgba(0, 0, 0, 0.3); }
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 50px; }
     .section-pricing .pricing-content .top-pricing h4 {
       color: #485563;
       font-family: 'Montserrat';
@@ -364,5 +370,82 @@ body {
       line-height: 22px;
       letter-spacing: -0.35px;
       padding-right: 10px; }
+
+@media (max-width: 767px) {
+  .section-header {
+    padding-bottom: 1000px; }
+    .section-header .top-header .logo {
+      text-align: center; }
+    .section-header .top-header .menu ul {
+      padding-left: 0; }
+      .section-header .top-header .menu ul li {
+        display: block;
+        padding-top: 30px; }
+        .section-header .top-header .menu ul li a {
+          font-size: 18px; }
+    .section-header .top-header .main-header h3 {
+      padding-top: 80px; }
+    .section-header .top-header .main-header img {
+      padding-top: 140px; }
+
+  .section-team {
+    padding-bottom: 1050px; }
+    .section-team .team-header img {
+      padding-bottom: 40px; }
+    .section-team .team-header h3 {
+      padding-top: 10px; }
+    .section-team .team-content .team-button button {
+      margin-top: 30px; }
+    .section-team .team-content .team-photo img {
+      width: 75%;
+      padding-top: 20px; }
+    .section-team .team-content .team-info {
+      width: 75%;
+      margin: 0 auto; }
+      .section-team .team-content .team-info i {
+        font-size: 14px;
+        padding-right: 3px; }
+      .section-team .team-content .team-info p {
+        font-size: 12px; }
+      .section-team .team-content .team-info h5 {
+        font-size: 10px; }
+
+  .section-company {
+    padding-top: 20px; }
+    .section-company img {
+      padding-top: 35px; }
+
+  .section-pricing .pricing-content {
+    width: 70%;
+    margin: 0 auto; } }
+.section-footer .left-side {
+  text-align: center; }
+.section-footer .right-side {
+  text-align: center; }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .logo {
+    text-align: center; }
+
+  .section-team {
+    padding-bottom: 1050px; }
+    .section-team .team-header img {
+      padding-bottom: 60px; }
+    .section-team .team-content {
+      padding-bottom: 1200px; }
+      .section-team .team-content .team-photo img {
+        width: 50%;
+        padding-top: 20px; }
+      .section-team .team-content .team-info {
+        width: 50%;
+        margin: 0 auto; }
+
+  .section-pricing .pricing-content {
+    width: 70%;
+    text-align: center;
+    margin-left: 120px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
