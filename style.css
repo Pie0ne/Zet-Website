@@ -15,7 +15,8 @@ body {
     height: 100%;
     padding-bottom: 300px; }
   .section-header .top-header .logo img {
-    padding-top: 32px; }
+    padding-top: 32px;
+    cursor: pointer; }
   .section-header .top-header .menu ul {
     padding-top: 42px;
     text-align: center; }
@@ -26,7 +27,13 @@ body {
         color: #fff;
         font-size: 16px;
         font-family: 'Montserrat';
-        text-decoration: none; }
+        text-decoration: none;
+        padding: 5px; }
+        .section-header .top-header .menu ul li a:hover {
+          color: black;
+          background-color: #fff;
+          font-weight: 500;
+          transition: .5s; }
   .section-header .top-header .main-header {
     text-align: center; }
     .section-header .top-header .main-header h3 {
@@ -59,6 +66,10 @@ body {
       display: inline;
       padding: 5px 35px;
       background: none; }
+      .section-header .top-header .main-header button:hover {
+        color: black;
+        background-color: #fff;
+        transition: .5s; }
     .section-header .top-header .main-header img {
       padding-top: 232px; }
 
@@ -102,7 +113,8 @@ body {
     line-height: 22px;
     padding-top: 15px; }
   .section-services .services-content img {
-    padding-top: 15px; }
+    padding-top: 15px;
+    cursor: pointer; }
 
 .section-works {
   text-align: center;
@@ -130,6 +142,10 @@ body {
     margin-right: 0; }
   .section-works .work-photo img {
     width: 100%; }
+    .section-works .work-photo img:hover {
+      cursor: pointer;
+      transition: .5s;
+      opacity: 0.5; }
   .section-works .work-photo .col-lg-3 {
     padding-left: 0;
     padding-right: 0; }
@@ -171,7 +187,8 @@ body {
     padding-top: 15px;
     transform: rotate(10deg); }
   .section-clients .clients-content img {
-    padding-top: 15px; }
+    padding-top: 15px;
+    cursor: pointer; }
   .section-clients .clients-content h4 {
     color: #29323c;
     font-family: 'Montserrat';
@@ -200,7 +217,8 @@ body {
     height: 100%;
     padding-bottom: 300px; }
   .section-team .team-photo img {
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
   .section-team .team-content .team-button button {
     color: #e8e8e8;
     font-family: 'Montserrat';
@@ -215,6 +233,10 @@ body {
     padding: 5px 35px;
     background: none;
     margin-top: 100px; }
+    .section-team .team-content .team-button button:hover {
+      color: black;
+      background-color: #fff;
+      transition: .5s; }
   .section-team .team-content .team-info {
     background-color: #f2f2f2;
     opacity: 0.75; }
@@ -267,7 +289,8 @@ body {
   padding-bottom: 50px;
   padding-top: 50px; }
   .section-company img {
-    padding-top: 15px; }
+    padding-top: 15px;
+    cursor: pointer; }
   .section-company .intel {
     margin-top: -5px; }
 
@@ -295,6 +318,12 @@ body {
   .section-pricing .pricing-content .top-pricing {
     border: 1px solid rgba(0, 0, 0, 0.3);
     margin-top: 50px; }
+    .section-pricing .pricing-content .top-pricing:hover {
+      background-color: #485563;
+      cursor: pointer;
+      transition: .6s; }
+      .section-pricing .pricing-content .top-pricing:hover h4, .section-pricing .pricing-content .top-pricing:hover p, .section-pricing .pricing-content .top-pricing:hover h5 {
+        color: #fff; }
     .section-pricing .pricing-content .top-pricing h4 {
       color: #485563;
       font-family: 'Montserrat';
@@ -340,6 +369,10 @@ body {
       border: 1px solid #485563;
       padding: 7px 50px;
       border-radius: 50px; }
+      .section-pricing .pricing-content .bottom-pricing button:hover {
+        color: #485563;
+        background-color: #fff;
+        transition: .5s; }
     .section-pricing .pricing-content .bottom-pricing p {
       padding-top: 60px;
       color: #29323c;
@@ -362,6 +395,8 @@ body {
       display: inline-block;
       padding-left: 10px;
       font-size: 25px; }
+      .section-footer .right-side i:hover {
+        cursor: pointer; }
     .section-footer .right-side p {
       display: inline-block;
       padding-top: 40px;

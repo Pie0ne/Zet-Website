@@ -20,6 +20,7 @@ body {
 		.logo {
 			img {
 				padding-top: 32px;
+				cursor: pointer;
 			}
 		}
 		.menu {
@@ -34,6 +35,13 @@ body {
 						font-size: 16px;
 						font-family: 'Montserrat';
 						text-decoration: none;
+						padding: 5px;
+						&:hover {
+							color: black;
+							background-color: #fff;
+							font-weight: 500;
+							transition: .5s;
+						}
 					}
 				}
 			}
@@ -72,6 +80,11 @@ body {
 				display: inline;
 				padding: 5px 35px;
 				background: none;
+				&:hover {
+					color: black;
+					background-color: #fff;
+					transition: .5s;
+				}
 			}
 			img {
 				padding-top: 232px;
@@ -129,6 +142,7 @@ body {
 		}
 		img {
 			padding-top: 15px;
+			cursor: pointer;
 		}
 	}
 }
@@ -166,6 +180,11 @@ body {
 	.work-photo {
 		img {
 			width: 100%;
+			&:hover {
+				cursor: pointer;
+				transition: .5s;
+				opacity: 0.5;
+			}
 		}
 		.col-lg-3 {
 			padding-left: 0;
@@ -220,6 +239,7 @@ body {
 		}
 		img {
 			padding-top: 15px;
+			cursor: pointer;
 
 		}
 		h4 {
@@ -256,6 +276,7 @@ body {
 	.team-photo {
 		img {
 			width: 100%;
+			cursor: pointer;
 		}
 	}
 	.team-content {
@@ -274,6 +295,11 @@ body {
 				padding: 5px 35px;
 				background: none;
 				margin-top: 100px;
+				&:hover {
+					color: black;
+					background-color: #fff;
+					transition: .5s;
+				}
 			}
 		}
 		.team-info {
@@ -339,6 +365,7 @@ body {
 	padding-top: 50px;
 	img {
 		padding-top: 15px;
+		cursor: pointer;
 	}
 	.intel {
 		margin-top: -5px;
@@ -376,6 +403,14 @@ body {
 		.top-pricing {
 			border: 1px solid rgba(0,0,0,0.3);
 			margin-top: 50px;
+			&:hover {
+				background-color: #485563;
+				cursor: pointer;
+				transition: .6s;
+				h4,p,h5 {
+					color: #fff;
+				}
+			}
 			h4 {
 				color: #485563;
 				font-family: 'Montserrat';
@@ -413,7 +448,6 @@ body {
 		}
 		.bottom-pricing {
 			border: 1px solid rgba(0,0,0,0.3);
-
 			button {
 				margin-top: 60px;
 				margin-bottom: 60px;
@@ -428,6 +462,12 @@ body {
 				border: 1px solid #485563;
 				padding: 7px 50px;
 				border-radius: 50px;
+				&:hover {
+					color: #485563;
+					background-color: #fff;
+					transition: .5s;
+
+				}
 			}
 			p {
 				padding-top: 60px;
@@ -457,7 +497,9 @@ body {
 			display: inline-block;
 			padding-left: 10px;
 			font-size: 25px;
-
+			&:hover {
+				cursor: pointer;	
+			}
 		}
 		p {
 			display: inline-block;
