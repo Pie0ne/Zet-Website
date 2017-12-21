@@ -22,18 +22,18 @@ body {
     text-align: center; }
     .section-header .top-header .menu ul li {
       display: inline-block;
-      padding-right: 10px; }
+      padding-right: 5px; }
       .section-header .top-header .menu ul li a {
         color: #fff;
         font-size: 16px;
         font-family: 'Montserrat';
         text-decoration: none;
-        padding: 5px; }
+        padding: 10px;
+        border-radius: 50px; }
         .section-header .top-header .menu ul li a:hover {
-          color: black;
-          background-color: #fff;
-          font-weight: 500;
-          transition: .5s; }
+          background: rgba(255, 255, 255, 0.3);
+          cursor: pointer;
+          transition: .7s; }
   .section-header .top-header .main-header {
     text-align: center; }
     .section-header .top-header .main-header h3 {

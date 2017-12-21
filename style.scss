@@ -29,18 +29,18 @@ body {
 				text-align: center;
 				li {
 					display: inline-block;
-					padding-right: 10px;
+					padding-right: 5px;
 					a {
 						color: #fff;
 						font-size: 16px;
 						font-family: 'Montserrat';
 						text-decoration: none;
-						padding: 5px;
+						padding: 10px;
+						border-radius: 50px;
 						&:hover {
-							color: black;
-							background-color: #fff;
-							font-weight: 500;
-							transition: .5s;
+							background: rgba(255,255,255, 0.3);
+							cursor: pointer;
+							transition: .7s;
 						}
 					}
 				}
