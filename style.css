@@ -71,7 +71,8 @@ body {
         background-color: #fff;
         transition: .5s; }
     .section-header .top-header .main-header img {
-      padding-top: 232px; }
+      padding-top: 232px;
+      cursor: pointer; }
 
 .section-services {
   text-align: center;
