@@ -5,7 +5,7 @@ body {
 .section-header {
   background-image: url("img/newbackground-header.png");
   padding-bottom: 950px;
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative; }
   .section-header .layer {
     background-color: rgba(41, 50, 60, 0.5);
