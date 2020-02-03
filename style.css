@@ -209,6 +209,7 @@ body {
   text-align: center;
   background-image: url("img/newteam-background.png");
   position: relative;
+  background-size: cover;
   padding-bottom: 1000px; }
   .section-team .layer {
     background-color: rgba(41, 50, 60, 0.5);
